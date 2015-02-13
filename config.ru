@@ -1,6 +1,6 @@
 
 ENV['RACK_ENV'] ||= 'development'
 
-require './helloworld'
+require './hello'
 
 run Sinatra::Application
